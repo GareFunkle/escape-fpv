@@ -1,7 +1,7 @@
 .app__navbar {
     /* width: 100%; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     background: black;
 
@@ -16,7 +16,7 @@
 
 .app__navbar-logo img {
     width: 150px;
-    filter: drop-shadow(0px 0px 1px #cda632);
+    filter: drop-shadow(0px 0px 3px #e48e0d);
 }
 
 .app__navbar-links {
@@ -40,9 +40,8 @@
 }
 
 .app__navbar-links li a:hover {
-    color: #cda632;
-    border-bottom: 1px solid #cda632;
-    transition: border 0.2s;
+    color: #e48e0d;
+    border-bottom: 1px solid #e48e0d;
 }
 
 
